@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/LDangDev/W7_home_assignment.git'
+                git 'https://github.com/LDangDev/w7_home_assignment.git'
             }
         }
         stage('Build') {
